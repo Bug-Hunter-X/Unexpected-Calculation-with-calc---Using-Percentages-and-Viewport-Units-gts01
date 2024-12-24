@@ -1,0 +1,8 @@
+/* bugSolution.css */
+/*Instead of using calc() with percentages and viewport units, consider a different approach like using JavaScript or restructuring CSS*/
+#myElement {
+  width: 50%; /*Use percentage alone for width*/
+  height: 50vh;/* Use viewport unit alone for height */
+  /* Or another way to achieve the layout without the problematic combination */
+}
+/* Alternatively, use JavaScript for dynamic calculations if needed */
